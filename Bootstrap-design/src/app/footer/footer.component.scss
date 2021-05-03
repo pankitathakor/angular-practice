@@ -1,0 +1,19 @@
+.help {
+
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  background-color: wheat;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+
+  a {
+    display: block;
+    line-height: 2.8rem;
+  }
+
+  .help-icon {
+    max-width: 100%
+  }
+}

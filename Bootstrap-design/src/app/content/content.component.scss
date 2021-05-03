@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+.mh-70 {
+  max-height: 70vh !important;
+}
+
+.full-down-color {
+  div>div {
+    border-radius: 0 0 10rem 10rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    font-family: 'Monoton', cursive;
+    font-size: 4rem;
+  }
+
+  .one {
+    background-color: violet;
+    // animation-name: downAnimate;
+    animation: downAnimate 1s linear 0s;
+    height: 0px;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    max-height: 90%
+  }
+
+  :nth-child(2) {
+    background-color: yellow;
+    animation: downAnimate 1s linear 1s;
+    height: 0px;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    max-height: 78%
+  }
+
+  :nth-child(3) {
+    background-color: wheat;
+    animation: downAnimate 1s linear 2s;
+    height: 0px;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    max-height: 100%
+  }
+
+  :nth-child(4) {
+    background-color: #ddd;
+    animation: downAnimate 1s linear 3s;
+    height: 0px;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    max-height: 70%
+  }
+
+  :nth-child(5) {
+    background-color: blue;
+    animation: downAnimate 1s linear 4s;
+    height: 0px;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    max-height: 80%
+  }
+
+  :nth-child(6) {
+    background-color: red;
+    animation: downAnimate 1s linear 5s;
+    height: 0px;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    max-height: 95%
+  }
+
+  :nth-child(7) {
+    background-color: pink;
+    animation: downAnimate 1s linear 6s;
+    height: 0px;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    max-height: 70%
+  }
+}
+
+@keyframes downAnimate {
+  0% {
+    height: 0;
+  }
+
+  25% {
+    height: 25%;
+
+  }
+
+  50% {
+    height: 50%;
+
+  }
+
+  100% {
+    height: 100%;
+
+  }
+}

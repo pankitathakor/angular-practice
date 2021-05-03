@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Pankita Portfolio</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+</head>
+
+<body>
+  <app-root></app-root>
+</body>
+
+<script>
+
+  for(var i=0;i<6;i++){
+    const random_hex_color_code = () => {
+    let n = (Math.random() * 0xfffff * 1000000).toString(16);
+    return '#' + n.slice(0, 6);
+  };
+  // document.getElementsByClassName('one').style.backgroundColor = random_hex_color_code();
+  console.log(random_hex_color_code())
+  }
+  
+  </script>
+
+</html>
